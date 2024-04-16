@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Voltar para a Página Inicial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulário para Contato</h2>
+            <hr />
+            <form action="" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>Nome Completo:</label>
+                    <input type="text" name="nome" id="nome"
+                    placeholder="Ex: Duda Dantas" required />
+                    <label>E-mail: </label>
+                    <input type="text" name="email" id="email" required/> </br>     
+                    <label>Sexo:</label>
+                    <label>
+                        <input type="radio" name="fem" value="fem">Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="fem" value="fem">Feminino
+                    </label> </br>     
+                    <label>Tipo de Contato:</label>
+                    <label>
+                        <input type="radio" name="pessf" value="pess">Pessoal
+                    </label>
+                    <label>
+                        <input type="radio" name="prof" value="prof">Profissional
+                    </label> </br>    
+                    <label>Deixe um recado: </label>
+                    <input type="text" name="recado" id="recado" required/> 
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Limpar"/>     
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
